@@ -3,6 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+===============================
 PHP 5.4 Advent Calendar - 3日目
 ===============================
 
@@ -19,7 +20,7 @@ PHP 5.4 Advent Calendar - 3日目
 .. _`4日目->`: http://example.com
 
 概要
-----
+====
 
 `PHP5.4 Advent Calendar`_ ということで、おそらくほかデキル方々は目玉機能である、
 [] による配列表現や、Build-in Http Server、Traint などを取り扱う
@@ -28,7 +29,7 @@ PHP 5.4 Advent Calendar - 3日目
 .. _`PHP5.4 Advent Calendar`: http://atnd.org/events/22473
 
 関数増減(?)
------------
+===========
 
 コンパイルオプションを --prefix 以外何も付けない状態で、PHP5.3.8, PHP5.4RC2
 関数の差分を見て見ました。
@@ -162,7 +163,7 @@ sqlite関数が退場。
 仕様変更のあった関数も紹介します。
 
 [New] http_response_code()
---------------------------
+==========================
 
 発行予定の Http Response Code の設定、取得ができます。
 
@@ -200,14 +201,14 @@ PHP5.4
 `http_response_code ドキュメント <http://php.net/manual/ja/function.http-response-code.php>`_
 
 [New] header_register_callback()
---------------------------------
+================================
 
 ヘッダ送信直前に行う動作についての関数を登録できるようになりました。
 
 `http_register_callback ドキュメント <http://php.net/manual/ja/function.header-register-callback.php>`_
 
 debug_backtrace()
------------------
+=================
 
 ``debug_backtrace()`` に使用変更がありました。第2引数として、取得するスタックフレーム数の制限を行うことができるようになりました。
 
@@ -282,12 +283,12 @@ debug_backtrace()
 あまりに結果が長くなりそうなときなどに、使えそうです。
 
 JSON
-----
+====
 
 JSON拡張モジュールのほうで、エンコード周りで便利な機能追加がありました。
 
 json_encode() オプション
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 いくつかのオプションが追加されました。::
 
@@ -335,7 +336,7 @@ json_encode() オプション
   string(49) "["こんにちは","hello\/",1.2345678901235e+19]"
 
 JsonSerializable
-~~~~~~~~~~~~~~~~
+----------------
 
 ``JsonSerializable`` という interface が増えました。
 
@@ -427,7 +428,7 @@ JsonSerializable
 
 
 まとめ
-------
+======
 
 PHP5.4 以上用のPHPフレームワークとかが出たら、ココらへんの機能が
 駆使されるのでしょうか?
