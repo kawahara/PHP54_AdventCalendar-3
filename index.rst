@@ -292,12 +292,9 @@ json_encode() オプション
 
 いくつかのオプションが追加されました。::
 
-  JSON_BIGINT_AS_STRING
   JSON_PRETTY_PRINT
   JSON_UNESCAPED_SLASHES
   JSON_UNESCAPED_UNICODE
-
-``JSON_BIGINT_AS_STRING`` は、 BIGINT を文字列としてエンコードします。
 
 ``JSON_PRETTY_PRINT`` は、スペースや改行などを挿入して、可読性の高い JSON を出力するためのオプションです。デバックなどで便利そうですね。
 
@@ -314,26 +311,22 @@ json_encode() オプション
   $a = [
     'こんにちは',
     'hello/',
-    12345678901234567890
   ];
 
   var_dump(json_encode($a));
-  var_dump(json_encode($a, JSON_BIGINT_AS_STRING));
   var_dump(json_encode($a, JSON_PRETTY_PRINT));
   var_dump(json_encode($a, JSON_UNESCAPED_SLASHES));
   var_dump(json_encode($a, JSON_UNESCAPED_UNICODE));
 
 結果::
 
-  string(64) "["\u3053\u3093\u306b\u3061\u306f","hello\/",1.2345678901235e+19]"
-  string(64) "["\u3053\u3093\u306b\u3061\u306f","hello\/",1.2345678901235e+19]"
-  string(80) "[
+  string(44) "["\u3053\u3093\u306b\u3061\u306f","hello\/"]"
+  string(55) "[
       "\u3053\u3093\u306b\u3061\u306f",
-      "hello\/",
-      1.2345678901235e+19
+      "hello\/"
   ]"
-  string(63) "["\u3053\u3093\u306b\u3061\u306f","hello/",1.2345678901235e+19]"
-  string(49) "["こんにちは","hello\/",1.2345678901235e+19]"
+  string(43) "["\u3053\u3093\u306b\u3061\u306f","hello/"]"
+  string(29) "["こんにちは","hello\/"]"
 
 JsonSerializable
 ----------------
