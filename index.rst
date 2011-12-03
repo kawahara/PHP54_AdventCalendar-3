@@ -1,9 +1,9 @@
-.. PHP 5.4 Advent Calender - Day 3 documentation master file, created by
+.. PHP 5.4 Advent Calendar - Day 3 documentation master file, created by
    sphinx-quickstart on Wed Nov 30 21:46:39 2011.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-PHP 5.4 Advent Calender - 3日目
+PHP 5.4 Advent Calendar - 3日目
 ===============================
 
 :Author: Shogo Kawahara <kawahara@bucyou.net> Twitter: `@ooharabucyou`_
@@ -21,11 +21,11 @@ PHP 5.4 Advent Calender - 3日目
 概要
 ----
 
-`PHP5.4 Advent Calender`_ ということで、おそらくほかデキル方々は目玉機能である、
+`PHP5.4 Advent Calendar`_ ということで、おそらくほかデキル方々は目玉機能である、
 [] による配列表現や、Build-in Http Server、Traint などを取り扱う
 と思うので、私は地味に PHP5.4 のチマい関数仕様変更を取り上げたいと思います。
 
-.. _`PHP5.4 Advent Calender`: http://atnd.org/events/22473
+.. _`PHP5.4 Advent Calendar`: http://atnd.org/events/22473
 
 関数増減(?)
 -----------

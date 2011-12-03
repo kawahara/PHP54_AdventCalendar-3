@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'PHP 5.4 Advent Calender - Day 3'
+project = u'PHP 5.4 Advent Calendar - Day 3'
 copyright = u'2011, ooharabucyou'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -164,7 +164,7 @@ html_use_index = False
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PHP54AdventCalender-Day3doc'
+htmlhelp_basename = 'PHP54AdventCalendar-Day3doc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -183,7 +183,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'PHP54AdventCalender-Day3.tex', u'PHP 5.4 Advent Calender - Day 3 Documentation',
+  ('index', 'PHP54AdventCalendar-Day3.tex', u'PHP 5.4 Advent Calendar - Day 3 Documentation',
    u'ooharabucyou', 'manual'),
 ]
 
@@ -213,7 +213,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'php54adventcalender-day3', u'PHP 5.4 Advent Calender - Day 3 Documentation',
+    ('index', 'php54adventcalendar-day3', u'PHP 5.4 Advent Calendar - Day 3 Documentation',
      [u'ooharabucyou \\textless{}kawahara@bucyou.net\\textgreater{}'], 1)
 ]
 
@@ -227,8 +227,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'PHP54AdventCalender-Day3', u'PHP 5.4 Advent Calender - Day 3 Documentation',
-   u'Shogo Kawahara', 'PHP54AdventCalender-Day3', 'One line description of project.',
+  ('index', 'PHP54AdventCalendar-Day3', u'PHP 5.4 Advent Calendar - Day 3 Documentation',
+   u'Shogo Kawahara', 'PHP54AdventCalendar-Day3', 'One line description of project.',
    'Miscellaneous'),
 ]
 
