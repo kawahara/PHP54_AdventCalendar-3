@@ -14,10 +14,10 @@ PHP 5.4 Advent Calendar - 3日目
 
 .. _`@ooharabucyou`: http://twitter.com/ooharabucyou
 
-`<-2日目`_ **3日目(今ここ)** 4日目->
+`<-2日目`_ **3日目(今ここ)** `4日目->`_
 
 .. _`<-2日目`: http://blog.ohgaki.net/php-5-4-arrays
-.. _`4日目->`: http://example.com
+.. _`4日目->`: http://blog.r-sky.jp/post/13702883082/php-5-4-tips
 
 概要
 ====
